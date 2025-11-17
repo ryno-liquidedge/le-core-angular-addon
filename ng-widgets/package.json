@@ -1,14 +1,12 @@
 {
-  "name": "le-core-angular",
+  "name": "ng-widgets",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "generate:manifest": "node ../tools/generate-elements-manifest.js",
-    "build:elements": "npm run generate:manifest && ng build"
+    "test": "ng test"
   },
   "prettier": {
     "printWidth": 100,
@@ -27,12 +25,12 @@
     "@angular/common": "^20.3.0",
     "@angular/compiler": "^20.3.0",
     "@angular/core": "^20.3.0",
-    "@angular/elements": "^20.3.11",
+    "@angular/elements": "^20.3.12",
     "@angular/forms": "^20.3.0",
     "@angular/platform-browser": "^20.3.0",
-    "@angular/platform-browser-dynamic": "^20.3.11",
+    "@angular/platform-browser-dynamic": "^20.3.12",
     "@angular/router": "^20.3.0",
-    "document-register-element": "^1.14.10",
+    "@webcomponents/custom-elements": "^1.6.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
@@ -48,7 +46,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "ngx-build-plus": "^20.0.0",
     "typescript": "~5.9.2"
   }
 }
