@@ -1,0 +1,17 @@
+{
+    "name": "liquid-edge/le-core-angular",
+    "description": "And angular UI library for Liquid Edge Core classic",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "authors": [
+        {
+            "name": "ryno-liquidedge",
+            "email": "ryno@liquidedge.co.za"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
